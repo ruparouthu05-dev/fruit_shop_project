@@ -1,0 +1,258 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header h1{
+    padding-left: 15px;
+}
+
+ul li{
+    padding-right: 15px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 5px;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 700px;
+    background-color: limegreen;
+    display: flex;
+    text-align: center;
+    background-image: url("./Images/Background_pic.jpg");
+    background-size: cover;
+}
+
+.main h1 {
+    font-size: 45px;
+    text-shadow: 4px 4px 5px black;
+}
+
+.main button {
+    padding: 10px 20px;
+    border: none;
+    background: white;
+    border-radius: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 60px;
+}
+
+.about-img img {
+    width: 250px;
+}
+
+.about-text {
+    width: 400px;
+}
+
+.about-text h2 {
+    color: green;
+}
+
+.products {
+    background: lime;
+    padding: 30px;
+    text-align: center;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.products h2 {
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 0px;
+
+}
+
+.card h3 {
+    color: green;
+}
+
+.card p {
+    color: green;
+}
+
+.card {
+    width: 250px;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 200px;
+    height: 150px;
+}
+
+.card button {
+    border: 1px solid green;
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+    color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reviews {
+    padding: 60px;
+    text-align: center;
+    color: green;
+}
+
+.review-parent {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.review-card {
+    background: lime;
+    padding: 15px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    width: 300px;
+}
+
+.review-card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.choose{
+    background:limegreen;
+    padding:30px;
+    border-top-right-radius:50%;
+    border-bottom-right-radius:50%;
+    width: 60%;
+}
+
+.choose h2{
+    color:white;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.choose-row{
+    display:flex;
+    align-items:center;
+    gap:25px;
+    margin-bottom:30px;
+}
+
+.row{
+    display:flex;
+    align-items:center;
+}
+
+.row .choose-text{
+    order:1;
+}
+
+.row .choose-img{
+    width: 200px;
+    order:0;
+    padding-right: 45px;
+}
+
+.choose-row img{
+    width:200px;
+}
+
+.choose-text{
+    max-width:400px;
+}
+
+.choose-text h3{
+    color:white;
+    margin-bottom:5px;
+    font-size: 30px;
+}
+
+.choose-text p{
+    color:white;
+    font-size:15px;
+}
+
+.fruits {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 30px;
+    background: white;
+    border-top-left-radius: 500px;
+    border-bottom-right-radius: 500px;
+    margin: 30px;
+    border: 2px solid limegreen;
+}
+
+.fruits img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    background: limegreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.fruits:hover {
+    background-color: limegreen;
+}
+
